@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitnessGenie - Predefined Workout Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+               <center> <img src="logo.png" alt="FitnessGenie Logo">
+            </div>
+            <nav>
+                <ul><center>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="predefined-workout-planner.html">Predefined Workout Planner</a></li>
+                    <li><a href="ai-workout-planner.html">AI Workout Planner</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="workout-planner">
+            <div class="container">
+                <h2>Predefined Workout Planner</h2>
+                <form id="workout-form">
+                    <label for="fitness-level">Fitness Level:</label>
+                    <select id="fitness-level" name="fitness-level">
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                
+                    <label for="body-part">Body Part:</label>
+                    <select id="body-part" name="body-part">
+                        <option value="full-body">Full Body</option>
+                        <option value="chest">Chest</option>
+                        <option value="back">Back</option>
+                        <option value="legs">Legs</option>
+                        <option value="arms">Arms</option>
+                    </select>
+                <br>
+                    <button type="submit">Get Workout Plan</button>
+                </form>
+
+                <div id="workout-plan">
+                    <!-- Workout plan details will be added here dynamically -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Intelligent Exercise Planner. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

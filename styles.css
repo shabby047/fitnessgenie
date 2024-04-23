@@ -1,0 +1,408 @@
+/* CSS styles from index.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e8e9eb;
+    color: #333; /* Updated text color */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #f06543;
+    padding: 20px 0;
+}
+
+header .logo img {
+    width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Updated text color */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    padding: 20px 0;
+}
+
+.hero {
+    background-color: #61210f; /* Updated hero background color */
+    color: #fff; /* Updated text color */
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #f06543; /* Button color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #f09d51; /* Button hover color */
+}
+
+.features {
+    background-color: #e0dfd5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 40px;
+}
+
+.features ul {
+    list-style: none;
+}
+
+.features ul li {
+    margin-bottom: 20px;
+}
+
+.features ul li strong {
+    font-weight: bold;
+}
+
+
+
+/*Predefined Workouts*/
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e8e9eb; /* Light gray background */
+    color: #333; /* Text color */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #f06543; /* Orange header background */
+    padding: 20px 0;
+}
+
+header .logo img {
+    width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    padding: 20px 0;
+}
+
+.workout-planner {
+    background-color: #e0dfd5; /* Lighter gray section background */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.workout-planner h2 {
+    margin-bottom: 40px;
+}
+
+.workout-planner form {
+    margin-bottom: 20px;
+}
+
+.workout-planner label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.workout-planner select, .workout-planner button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.workout-planner select {
+    width: 200px;
+}
+
+.workout-planner button {
+    background-color: #f06543; /* Orange button color */
+    color: #fff; /* White button text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.workout-planner button:hover {
+    background-color: #f09d51; /* Light orange button hover color */
+}
+
+footer {
+    background-color: #61210f; /* Dark red footer background */
+    color: #fff; /* White footer text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e8e9eb;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #f06543;
+    padding: 20px 0;
+}
+
+header .logo img {
+    width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    padding: 20px 0;
+}
+
+.ai-workout-planner {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.ai-workout-planner h1 {
+    margin-bottom: 40px;
+    color: #f06543;
+}
+
+.chat-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.user-message {
+    text-align: right;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.assistant-message {
+    text-align: left;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+.input-container input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-container button {
+    width: 18%;
+    background-color: #f06543;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-container button:hover {
+    background-color: #f09d51;
+}
+
+
+/* About US */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e0dfd5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #61210f;
+    padding: 20px 0;
+}
+
+header .logo img {
+    width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #e8e9eb;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    padding: 20px 0;
+}
+
+.about-us {
+    padding: 50px 0;
+}
+
+.about-us h2 {
+    color: #61210f;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.team-member {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+

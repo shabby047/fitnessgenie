@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>/* Chat container */
+        .chat-container {
+          max-width: 600px;
+          margin: 20px auto;
+          padding: 20px;
+          border: 2px solid #ccc;
+          border-radius: 10px;
+          background-color: #f9f9f9;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Chat message */
+        .message {
+          margin-bottom: 10px;
+        }
+        
+        /* User message */
+        .user-message {
+          text-align: right;
+          color: #fff;
+          background-color: #007bff;
+          border-radius: 10px;
+          padding: 10px;
+        }
+        
+        /* Assistant message */
+        .assistant-message {
+          text-align: left;
+          background-color: #f3f3f3;
+          border-radius: 10px;
+          padding: 10px;
+
+        
+
+        }
+
+
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitnessGenie - AI Workout Planner</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><center>
+                <img src="logo.png" alt="Intelligent Exercise Planner Logo">
+            </div>
+            <nav>
+                <ul> <center>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="predefined-workout-planner.html">Predefined Workout Planner</a></li>
+                    <li><a href="ai-workout-planner.html">AI Workout Planner</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="ai-workout-planner">
+            <div class="container">
+                <h1><center>Intelligent AI Powered Workout Planner Chatbot</h1>
+                    <br>
+                <div id="chat-container" class="chat-container">
+                    <!-- Messages will be added dynamically here -->
+                </div>
+                <br>
+                <div class="input-container">
+                    <input type="text" id="user-input" placeholder="Type your message...">
+                    <button id="send-button"><img src="send.png" width="20" height="20"></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Intelligent Exercise Planner. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="ai-scripts.js"></script>
+</body>
+</html>

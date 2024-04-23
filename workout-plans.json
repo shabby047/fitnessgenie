@@ -1,0 +1,173 @@
+{
+    "beginner": {
+      "full-body": [
+        {
+          "name": "Beginner Full Body Workout",
+          "description": "A beginner-friendly full-body workout routine.",
+          "exercises": [
+            { "name": "Bodyweight Squats", "sets": 3, "reps": 10 },
+            { "name": "Push-ups", "sets": 3, "reps": 10 },
+            { "name": "Assisted Pull-ups", "sets": 3, "reps": 8 }
+          ]
+        }
+      ],
+      "chest": [
+        {
+          "name": "Beginner Chest Workout",
+          "description": "A beginner-friendly chest workout routine.",
+          "exercises": [
+            { "name": "Push-ups", "sets": 3, "reps": 10 },
+            { "name": "Dumbbell Bench Press", "sets": 3, "reps": 10 },
+            { "name": "Incline Dumbbell Flyes", "sets": 3, "reps": 10 }
+          ]
+        }
+      ],
+      "back": [
+        {
+          "name": "Beginner Back Workout",
+          "description": "A beginner-friendly back workout routine.",
+          "exercises": [
+            { "name": "Bodyweight Rows", "sets": 3, "reps": 10 },
+            { "name": "Dumbbell Rows", "sets": 3, "reps": 10 },
+            { "name": "Lat Pulldowns", "sets": 3, "reps": 10 }
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "name": "Beginner Leg Workout",
+          "description": "A beginner-friendly leg workout routine.",
+          "exercises": [
+            { "name": "Bodyweight Squats", "sets": 3, "reps": 10 },
+            { "name": "Lunges", "sets": 3, "reps": "10 each leg" },
+            { "name": "Calf Raises", "sets": 3, "reps": 15 }
+          ]
+        }
+      ],
+      "arms": [
+        {
+          "name": "Beginner Arm Workout",
+          "description": "A beginner-friendly arm workout routine.",
+          "exercises": [
+            { "name": "Dumbbell Bicep Curls", "sets": 3, "reps": 10 },
+            { "name": "Tricep Dips", "sets": 3, "reps": 10 },
+            { "name": "Hammer Curls", "sets": 3, "reps": 10 }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "full-body": [
+        {
+          "name": "Intermediate Full Body Workout",
+          "description": "An intermediate-level full-body workout routine.",
+          "exercises": [
+            { "name": "Barbell Squats", "sets": 4, "reps": 8 },
+            { "name": "Deadlifts", "sets": 4, "reps": 8 },
+            { "name": "Bench Press", "sets": 4, "reps": 8 }
+          ]
+        }
+      ],
+      "chest": [
+        {
+          "name": "Intermediate Chest Workout",
+          "description": "An intermediate-level chest workout routine.",
+          "exercises": [
+            { "name": "Incline Bench Press", "sets": 4, "reps": 8 },
+            { "name": "Dumbbell Flyes", "sets": 4, "reps": 8 },
+            { "name": "Cable Crossovers", "sets": 4, "reps": 8 }
+          ]
+        }
+      ],
+      "back": [
+        {
+          "name": "Intermediate Back Workout",
+          "description": "An intermediate-level back workout routine.",
+          "exercises": [
+            { "name": "Barbell Rows", "sets": 4, "reps": 8 },
+            { "name": "Pull-ups", "sets": 4, "reps": 8 },
+            { "name": "Lat Pulldowns", "sets": 4, "reps": 8 }
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "name": "Intermediate Leg Workout",
+          "description": "An intermediate-level leg workout routine.",
+          "exercises": [
+            { "name": "Front Squats", "sets": 4, "reps": 8 },
+            { "name": "Leg Press", "sets": 4, "reps": 10 },
+            { "name": "Romanian Deadlifts", "sets": 4, "reps": 8 }
+          ]
+        }
+      ],
+      "arms": [
+        {
+          "name": "Intermediate Arm Workout",
+          "description": "An intermediate-level arm workout routine.",
+          "exercises": [
+            { "name": "Close Grip Bench Press", "sets": 4, "reps": 8 },
+            { "name": "Dumbbell Hammer Curls", "sets": 4, "reps": 10 },
+            { "name": "Skull Crushers", "sets": 4, "reps": 8 }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "full-body": [
+        {
+          "name": "Advanced Full Body Workout",
+          "description": "An advanced-level full-body workout routine.",
+          "exercises": [
+            { "name": "Squats", "sets": 5, "reps": 5 },
+            { "name": "Deadlifts", "sets": 5, "reps": 5 },
+            { "name": "Bench Press", "sets": 5, "reps": 5 }
+          ]
+        }
+      ],
+      "chest": [
+        {
+          "name": "Advanced Chest Workout",
+          "description": "An advanced-level chest workout routine.",
+          "exercises": [
+            { "name": "Flat Bench Press", "sets": 5, "reps": 5 },
+            { "name": "Incline Dumbbell Press", "sets": 5, "reps": 5 },
+            { "name": "Dumbbell Flyes", "sets": 5, "reps": 5 }
+          ]
+        }
+      ],
+      "back": [
+        {
+          "name": "Advanced Back Workout",
+          "description": "An advanced-level back workout routine.",
+          "exercises": [
+            { "name": "Deadlifts", "sets": 5, "reps": 5 },
+            { "name": "Pull-ups", "sets": 5, "reps": 5 },
+            { "name": "Barbell Rows", "sets": 5, "reps": 5 }
+          ]
+        }
+      ],
+      "legs": [
+        {
+          "name": "Advanced Leg Workout",
+          "description": "An advanced-level leg workout routine.",
+          "exercises": [
+            { "name": "Barbell Squats", "sets": 5, "reps": 5 },
+            { "name": "Deadlifts", "sets": 5, "reps": 5 },
+            { "name": "Lunges", "sets": 5, "reps": "10 each leg" }
+          ]
+        }
+      ],
+      "arms": [
+        {
+          "name": "Advanced Arm Workout",
+          "description": "An advanced-level arm workout routine.",
+          "exercises": [
+            { "name": "Close Grip Bench Press", "sets": 5, "reps": 5 },
+            { "name": "Dumbbell Curl", "sets": 5, "reps": 5 },
+            { "name": "Tricep Dips", "sets": 5, "reps": 5 }
+          ]
+        }
+      ]
+    }
+  }
